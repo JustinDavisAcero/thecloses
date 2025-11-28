@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario – THE CLOSERS LA AGENCIA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body { 
+            background-image: url(Imagenes/Ciclo_de_Ventas_page-0001.jpg);
+            background-size: 1550px 1300px;
+            background-color: #f8f9fa; /* Fondo gris claro */
+        }
+        .form-container {
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #000000; /* Color azul para el título */
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        label { 
+            font-weight: bold; 
+            margin-bottom: 8px;
+            color: #343a40; /* Color oscuro para el texto */
+        }
+        .form-select, .form-control {
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="form-container">
+                    <h2>Formulario de Despegue Inicial – THE CLOSERS LA AGENCIA</h2>
+
+                    <form action="https://formsubmit.co/ovrg215@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <div class="mb-4">
+                            <label class="form-label">1. Nuestro Cliente Ideal </label>
+                            <select name="cliente_ideal" class="form-select">
+                                <option value="Jóvenes adultos / Estudiantes">Jóvenes adultos / Estudiantes</option>
+                                <option value="Padres o madres con poco tiempo">Padres o madres con poco tiempo</option>
+                                <option value="Profesionales o dueños de negocio (B2B)">Profesionales o dueños de negocio (B2B)</option>
+                                <option value="Personas mayores / Jubilados">Personas mayores / Jubilados</option>
+                                <option value="Afición o necesidad específica">Personas con una afición o necesidad muy específica</option>
+                                <option value="Otro">Otro (libre)</option>
+                            </select>
+                            <input type="text" name="cliente_ideal_otro" placeholder="Respuesta libre si seleccionó 'Otro'" class="form-control mt-2">
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label">2. Problema Principal </label>
+                            <select name="problema" class="form-select">
+                                <option value="Falta de tiempo">Falta de tiempo</option>
+                                <option value="Pérdida de dinero o altos costos">Están perdiendo dinero o pagando demasiado</option>
+                                <option value="Estrés o incertidumbre">Estrés, frustración o incertidumbre</option>
+                                <option value="Mejorar imagen o estatus">Quieren mejorar su imagen o sentirse especiales</option>
+                                <option value="Salud o bienestar">Problema de salud o bienestar específico</option>
+                                <option value="Otro">Otro (libre)</option>
+                            </select>
+                            <input type="text" name="problema_otro" placeholder="Respuesta libre si seleccionó 'Otro'" class="form-control mt-2">
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label">3. Tu Solución Mágica </label>
+                            <select name="solucion" class="form-select">
+                                <option value="Ahorro de tiempo o esfuerzo">Les ahorro tiempo o esfuerzo</option>
+                                <option value="Mejorar ingresos o ahorro">Les hago ganar más dinero o ahorrar</option>
+                                <option value="Tranquilidad y seguridad">Les doy tranquilidad y seguridad</option>
+                                <option value="Calidad superior">Calidad muy superior</option>
+                                <option value="Transformación personal">Transformación personal</option>
+                                <option value="Otro">Otro (libre)</option>
+                            </select>
+                            <input type="text" name="solucion_otro" placeholder="Respuesta libre si seleccionó 'Otro'" class="form-control mt-2">
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label">4. Diferenciador de mi marca </label>
+                            <select name="salsa_secreta" class="form-select">
+                                <option value="Atención personalizada">Atención muy personalizada</option>
+                                <option value="Metodología o tecnología propia">Metodología o tecnología propia</option>
+                                <option value="Entrega más rápida">Entrego más rápido que la competencia</option>
+                                <option value="Precios competitivos">Precios o facilidades muy competitivas</option>
+                                <option value="Experiencia o reputación">Experiencia, historia o reputación destacada</option>
+                                <option value="Otro">Otro (libre)</option>
+                            </select>
+                            <input type="text" name="salsa_secreta_otro" placeholder="Respuesta libre si seleccionó 'Otro'" class="form-control mt-2">
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label">5. Prueba Social </label>
+                            <select name="testimonios" class="form-select">
+                                <option value="Muchas reseñas positivas">Muchas reseñas positivas</option>
+                                <option value="Marcas conocidas">He trabajado con marcas conocidas</option>
+                                <option value="Premios o prensa">Premios, certificaciones o prensa</option>
+                                <option value="Casos de éxito">Casos de éxito visibles</option>
+                                <option value="Pocos testimonios">Aún no tengo muchos testimonios</option>
+                                <option value="Otro">Otro (libre)</option>
+                            </select>
+                            <input type="text" name="testimonios_otro" placeholder="Respuesta libre si seleccionó 'Otro'" class="form-control mt-2">
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label">6. Objeciones </label>
+                            <select name="objecion" class="form-select">
+                                <option value="Es caro">Es muy caro</option>
+                                <option value="No sé si funcionará">No sé si funcionará para mí</option>
+                                <option value="No conocen la marca">No conozco la marca</option>
+                                <option value="Parece complicado">Parece complicado o requiere tiempo</option>
+                                <option value="No es buen momento">Ahora no es buen momento</option>
+                                <option value="Otro">Otro (libre)</option>
+                            </select>
+                            <input type="text" name="objecion_otro" placeholder="Respuesta libre si seleccionó 'Otro'" class="form-control mt-2">
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label">7. Garantía Sin Riesgo </label>
+                            <select name="garantia" class="form-select">
+                                <option value="Garantía de devolución">Garantía de devolución</option>
+                                <option value="Prueba gratuita o demo">Prueba gratuita o demo</option>
+                                <option value="Soporte intensivo">Soporte intensivo o garantía de resultados</option>
+                                <option value="Financiamiento flexible">Financiamiento o pagos flexibles</option>
+                                <option value="Sin garantía explícita">No ofrezco garantía explícita</option>
+                                <option value="Otro">Otro (libre)</option>
+                            </select>
+                            <input type="text" name="garantia_otro" placeholder="Respuesta libre si seleccionó 'Otro'" class="form-control mt-2">
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg"> Enviar Formulario</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
